@@ -1,0 +1,4 @@
+com/weather/main/SpringWeatherApplication.class
+com/weather/main/controller/WeatherController.class
+com/weather/main/models/Weather.class
+com/weather/main/services/WeatherService.class
