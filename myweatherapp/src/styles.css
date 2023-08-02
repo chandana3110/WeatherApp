@@ -1,0 +1,203 @@
+/* You can add global styles to this file, and also import other style files */
+#background {
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 5px #999999;
+	transition: background ease-in-out 1s;
+}
+/*Preload background images */
+#background:after {
+	display: none;
+	content:
+		url("./assets/images/background/default.jpg")
+        url("./assets/images/background/clearDay.jpg")
+		url("./assets/images/background/clearDay.jpg")
+		url("./assets/images/background/clearNight.jpg")
+		url("./assets/images/background/fewCloudsDay.jpg")
+		url("./assets/images/background/fewCloudsNight.jpg")
+		url("./assets/images/background/cloudyDay.jpg")
+		url("./assets/images/background/cloudyNight.jpg")
+		url("./assets/images/background/rainyDay.jpg")
+		url("./assets/images/background/rainyNight.jpg")
+		url("./assets/images/background/thunderstorm.jpg")
+		url("./assets/images/background/snowDay.jpg")
+		url("./assets/images/background/snowNight.jpg")
+		url("./assets/images/background/mist.jpg");
+}
+.default_bg {
+	background: url("./assets/images/background/default.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.clearDay_bg {
+	background: url("./assets/images/background/clearDay.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.clearNight_bg {
+	background: url("./assets/images/background/clearNight.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.fewCloudsDay_bg {
+	background: url("./assets/images/background/fewCloudsDay.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.fewCloudsNight_bg {
+	background: url("./assets/images/background/fewCloudsNight.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.cloudyDay_bg {
+	background: url("./assets/images/background/cloudyDay.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.cloudyNight_bg {
+	background: url("./assets/images/background/cloudyNight.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.rainyDay_bg {
+	background: url("./assets/images/background/rainyDay.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.rainyNight_bg {
+	background: url("./assets/images/background/rainyNight.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.thunderstorm_bg {
+	background: url("./assets/images/background/thunderstorm.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.snowDay_bg {
+	background: url("./assets/images/background/snowDay.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.snowNight_bg {
+	background: url("./assets/images/background/snowNight.jpg") no-repeat;
+    transition-duration: 5s;
+}
+.mist_bg {
+	background: url("./assets/images/background/mist.jpg") no-repeat;
+    transition-duration: 5s;
+}
+
+input {
+    width: 75%;
+    float: right;
+    height: auto;
+    margin-top: 5px;
+    text-align: left;
+    text-indent: 5px;
+    font-size: 12.6pt;
+    border-radius: 25px;
+    border: solid 1.5px #D3D3D3;
+    -webkit-transition: 1s; /* Safari */
+    transition: 1s;
+  }
+  input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+  input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
+
+.button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #c1d8f8 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 5px;
+}
+
+.button:hover {
+  background-color: #c1d8f8;
+  box-shadow: #c1d8f8 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.container {
+    background: rgba(47, 48, 42, 0.3);
+    max-width: 40%;
+    height: auto !important;
+    -moz-border-radius:25px;  /* for Firefox */
+    -webkit-border-radius:25px; /* for Webkit-Browsers */
+    border-radius:25px; 
+}
+
+.iconsize {
+    width: 30%;
+    height: auto;
+}
+
+.font100 {
+    font-size: 100px;
+}
+
+.font50 {
+    font-size: 50px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { margin: 1rem; }
+
+.flexbox { display: flex; }
+.flexbox .stretch { flex: 1; }
+.flexbox .normal { flex: 0; margin: 0 0 0 1rem; }
+.flexbox div input { padding: .5em 1em; width: 100%; }
+.flexbox div button { padding: .5em 1em; white-space: nowrap; }
+.padding {padding: 50px 50px 50px 50px; }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      max-width: 100%;
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
+
+
