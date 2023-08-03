@@ -8,7 +8,7 @@ URL format - https://weatherapi-394718.et.r.appspot.com/weather/<city-name>
 sample: https://weatherapi-394718.et.r.appspot.com/weather/Bangalore
 
 For Frontend, have implemented it to connect with backend server (mentioned above) and fetch the current weather of the given city from the UI
-Hosted with AWS (S3 bucket) at - [https://weatherappangular-394718.et.r.appspot.com](http://weatherapp030823.s3-website-ap-southeast-1.amazonaws.com/)
+Hosted with AWS (S3 bucket) at - http://weatherapp030823.s3-website-ap-southeast-1.amazonaws.com
 
 Sample Screenshots
 
