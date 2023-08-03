@@ -2,12 +2,13 @@
 
 This is a weather application having front end with angular js and backend with spring boot. Here the main goal is to run both the client and server seperately.
 
-For Backend, have implement it with REST API which is hosted at https://weatherapi-394718.et.r.appspot.com
+For Backend, have implement it with REST API
+Hosted with GCP at - https://weatherapi-394718.et.r.appspot.com
 URL format - https://weatherapi-394718.et.r.appspot.com/weather/<city-name>
 sample: https://weatherapi-394718.et.r.appspot.com/weather/Bangalore
 
 For Frontend, have implemented it to connect with backend server (mentioned above) and fetch the current weather of the given city from the UI
-Hosted at - https://weatherappangular-394718.et.r.appspot.com
+Hosted with AWS (S3 bucket) at - [https://weatherappangular-394718.et.r.appspot.com](http://weatherapp030823.s3-website-ap-southeast-1.amazonaws.com/)
 
 Sample Screenshots
 
